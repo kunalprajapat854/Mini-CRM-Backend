@@ -79,10 +79,12 @@ Bash
 npm run start:dev
 Server will start at: http://localhost:3000
 
-📖 API Documentation (Swagger)
+
+API Documentation (Swagger)
+
 The API is fully documented using Swagger. Once the server is running, visit:
 
-👉 http://localhost:3000/api
+URL :  http://localhost:3000/api
 
 You can test endpoints directly from the interface:
 
@@ -94,7 +96,9 @@ Click Authorize at the top right and paste the token: Bearer <your_token>.
 
 Test protected routes (Users, Customers, Tasks).
 
-🧪 Testing
+
+Testing
+
 Health Check
 HTTP
 GET /health
@@ -108,7 +112,9 @@ JSON
   "password": "password123",
   "role": "ADMIN"
 }
-📂 Project Structure
+
+ Project Structure
+
 Bash
 src/
 ├── auth/           # Auth logic, Strategies, Guards
@@ -118,9 +124,10 @@ src/
 ├── users/          # User Management
 ├── prisma/         # Database Service
 └── main.ts         # App Entry & Swagger Config
-🤝 Submission Details
+
+ Submission Details
 Assignment: Backend Intern Assignment
 
-Submitted by: Kunal Prajapati
+Submitted by: Kunal Prajapat
 
 Submission Date: 28-Jan-2026
