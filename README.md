@@ -1,4 +1,4 @@
-Markdown
+
 # Mini CRM Backend
 
 A production-ready REST API for managing Users, Customers, and Tasks. Built with **NestJS**, **Prisma**, and **PostgreSQL**. This project demonstrates a scalable backend architecture with strict Role-Based Access Control (RBAC), JWT Authentication, and clean code practices.
